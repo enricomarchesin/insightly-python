@@ -9,7 +9,9 @@ setup(
     author_email='',
     url='https://github.com/Insightly/insightly-python',
     license='',
-    packages=find_packages(),
+    packages=[
+      'insightly'
+    ],
     include_package_data=True,
     package_data={'': ['README.md']},
     zip_safe=False,
